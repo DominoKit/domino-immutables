@@ -1,3 +1,9 @@
+<a title="Gitter" href="https://gitter.im/DominoKit/gwt-immutable"><img src="https://badges.gitter.im/Join%20Chat.svg"></a>
+[![Build Status](https://travis-ci.org/DominoKit/gwt-immutables.svg?branch=master)](https://travis-ci.org/DominoKit/gwt-immutables)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dominokit/gwt-immutables/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.dominokit/gwt-immutables)
+![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.dominokit/gwt-immutables.svg)
+
+
 # GWT Immutables
 
 A wrapper project for Immutables.org that allows it to work with GWT.
