@@ -31,3 +31,19 @@ A wrapper project for Immutables.org that allows it to work with GWT.
 ```xml
 <inherits name="org.dominokit.immutables.Immutables"/>
 ```
+
+Usage of Immutables can be found in [Immutables.org](http://immutables.github.io/)
+### Example
+```java
+@Value.Immutable
+public interface Person {
+    int foo();
+
+    String bar();
+
+    List<Integer> buz();
+
+    Set<Long> crux();
+}
+```
+
