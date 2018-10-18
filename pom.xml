@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.dominokit</groupId>
+    <artifactId>gwt-immutables</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>gwt-lib</packaging>
+    <url>https://github.com/DominoKit/gwt-immutables</url>
+    <description>GWT Immutables</description>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Ahmad K. Bawaneh</name>
+            <email>akabme@gmail.com</email>
+        </developer>
+        <developer>
+            <name>Rafat J. Al-Barouki</name>
+            <email>rafat.albarouki@gmail.com</email>
+        </developer>
+        <developer>
+            <name>Farah M. Soudani</name>
+            <email>fsoudanii93@gmail.com</email>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <url>https://github.com/DominoKit/gwt-immutables/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:https://github.com/DominoKit/gwt-immutables.git</connection>
+        <developerConnection>scm:git:git@github.com:DominoKit/gwt-immutables.git</developerConnection>
+        <url>https://github.com/DominoKit/gwt-immutables</url>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <immutables.version>2.7.1</immutables.version>
+        <error.prone.version>2.3.2</error.prone.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.immutables</groupId>
+            <artifactId>value</artifactId>
+            <version>${immutables.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.immutables</groupId>
+            <artifactId>value</artifactId>
+            <version>${immutables.version}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.google.errorprone</groupId>
+            <artifactId>error_prone_annotations</artifactId>
+            <version>${error.prone.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.errorprone</groupId>
+            <artifactId>error_prone_annotations</artifactId>
+            <version>${error.prone.version}</version>
+            <classifier>sources</classifier>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>net.ltgt.gwt.maven</groupId>
+                <artifactId>gwt-maven-plugin</artifactId>
+                <version>1.0-rc-9</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <moduleName>org.dominokit.immutables.Immutables</moduleName>
+                    <moduleShortName>immutables</moduleShortName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
