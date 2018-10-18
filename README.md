@@ -6,7 +6,7 @@
 
 # GWT Immutables
 
-A wrapper project for Immutables.org that allows it to work with GWT.
+A wrapper project for Immutables.org to work with GWT.
 
 ## Setup
 
