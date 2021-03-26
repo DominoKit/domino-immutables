@@ -6,7 +6,7 @@
 
     <groupId>org.dominokit</groupId>
     <artifactId>domino-immutables</artifactId>
-    <version>HEAD-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>gwt-lib</packaging>
 
     <name>domino-immutables</name>
