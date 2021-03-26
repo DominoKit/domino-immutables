@@ -1,10 +1,11 @@
-<a title="Gitter" href="https://gitter.im/DominoKit/gwt-immutable"><img src="https://badges.gitter.im/Join%20Chat.svg"></a>
-[![Build Status](https://travis-ci.org/DominoKit/gwt-immutables.svg?branch=master)](https://travis-ci.org/DominoKit/gwt-immutables)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dominokit/gwt-immutables/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.dominokit/gwt-immutables)
-![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.dominokit/gwt-immutables.svg)
+<a title="Gitter" href="https://gitter.im/DominoKit/domino"><img src="https://badges.gitter.im/Join%20Chat.svg"></a>
+[![Release Build Status](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=master)](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=master)
+[![Development Build Status](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=development)](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=development)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dominokit/domino-immutables/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.dominokit/domino-immutables)
+![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.dominokit/domino-immutables.svg)
 
 
-# GWT Immutables
+# Domino Immutables
 
 A wrapper project for Immutables.org to work with GWT.
 
@@ -12,11 +13,22 @@ A wrapper project for Immutables.org to work with GWT.
 
 ### Maven dependency
 
+- Latest release
 ```xml
 <dependency>
   <groupId>org.dominokit</groupId>
-  <artifactId>gwt-immutables</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>domino-immutables</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+- Development Snapshot
+
+```xml
+<dependency>
+  <groupId>org.dominokit</groupId>
+  <artifactId>domino-immutables</artifactId>
+  <version>HEAD-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -52,4 +64,3 @@ public interface Person {
     Set<Long> crux();
 }
 ```
-
