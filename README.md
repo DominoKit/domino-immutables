@@ -2,7 +2,7 @@
 [![Release Build Status](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=master)](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=master)
 [![Development Build Status](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=development)](https://github.com/DominoKit/domino-immutables/actions/workflows/deploy.yaml/badge.svg?branch=development)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dominokit/domino-immutables/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.dominokit/domino-immutables)
-![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.dominokit/domino-immutables.svg)
+![Sonatype Nexus (Snapshots)](https://img.shields.io/badge/snapshot-HEAD--SNAPSHOT-orange)
 
 
 # Domino Immutables
